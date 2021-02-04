@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: curl 'https://github4life.herokuapp.com/ethomson.gif?seed=true&cachebust=true'
+    - run: curl -o ethomson.gif 'https://github4life.herokuapp.com/ethomson.gif?seed=true&cachebust=true'
